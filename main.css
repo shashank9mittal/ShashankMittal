@@ -1,0 +1,60 @@
+
+/* navigation Bar css */
+.portfolio-nav {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 10px;
+}
+.port-bar {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+}
+.port-pill {
+  border: 1px solid #0563bb;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0563bb;
+  color: white;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.port-pill span {
+  display: none;
+  font-size: 20px;
+}
+.port-pill:hover {
+  width: 100%;
+  padding: 0 5px 0 7px;
+}
+.port-pill:hover span {
+  display: block;
+  padding: 0 5px 0 7px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* info section css */
+#home{
+    width: 100%;
+}
+.info {
+  height: 100vh;
+  word-break: break-all;
+  background: url("images/ui-ux-3.jpg") top right no-repeat ;
+  background-size: cover;
+  position: relative;
+  opacity: 0.5;
+  z-index: -1;
+}
