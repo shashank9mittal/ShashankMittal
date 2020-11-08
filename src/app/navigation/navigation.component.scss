@@ -1,0 +1,38 @@
+
+.portfolio-nav{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  .port-bar{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
+  .port-pill{
+    border: 1px solid #01a069f0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01a093;
+    color: white;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .port-pill span{
+    display: none;
+    font-size: 20px;
+
+  }
+  .port-pill:hover{
+    width: 100%;
+    padding: 0 5px 0 7px;
+  }
+  .port-pill:hover span{
+    display: block;
+    padding: 0 5px 0 7px;
+  }
+}
