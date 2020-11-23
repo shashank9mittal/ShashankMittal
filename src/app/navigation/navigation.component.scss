@@ -1,38 +1,65 @@
 
-.portfolio-nav{
+.portfolio-nav {
   height: 100vh;
   display: flex;
   align-items: center;
   position: fixed;
-  .port-bar{
+  margin-left: 10px;
+
+  .port-bar {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px;
   }
-  .port-pill{
-    border: 1px solid #01a069f0;
+
+  .port-pill {
     height: 50px;
     width: 50px;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #01a093;
-    color: white;
+    background-color: #f2f3f5;
+    color: #45505b;
     overflow: hidden;
     transition: 0.3s;
   }
-  .port-pill span{
+
+  .port-pill span {
     display: none;
     font-size: 20px;
 
   }
-  .port-pill:hover{
+
+  .port-pill:hover {
     width: 100%;
     padding: 0 5px 0 7px;
+    background: #0563bb;
+    color: white;
   }
-  .port-pill:hover span{
+
+  .port-pill:hover span {
     display: block;
     padding: 0 5px 0 7px;
+    background: #0563bb;
+    color: white;
+
+    .port-pill:hover {
+      width: 100%;
+      padding: 0 5px 0 7px;
+      background: #0563bb;
+      color: white;
+    }
+
+    .port-pill:hover span {
+      display: block;
+      padding: 0 5px 0 7px;
+      background: #0563bb;
+      color: white;
+    }
   }
+}
+.nav-active {
+  background-color: #0563bb !important;
+  color: white !important;
 }
