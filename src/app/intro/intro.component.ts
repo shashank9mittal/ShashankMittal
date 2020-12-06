@@ -8,7 +8,7 @@ import {Router} from "@angular/router";
 })
 export class IntroComponent implements OnInit, AfterContentInit {
   content = [
-    "",
+    "making internet look Beautiful",
     "Front-End Developer",
     "an aspiring Designer",
   ];
