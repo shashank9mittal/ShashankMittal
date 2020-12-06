@@ -1,42 +1,170 @@
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" data-aos="fade-up">
-
     <div class="section-title">
       <h2>Latest Projects</h2>
     </div>
-
-
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
       <div class="col-lg-8 col-md-12 portfolio-item filter-app">
-        <div class="portfolio-wrap">
+        <div class="portfolio-wrap" data-toggle="modal" data-target="#legalBotModal">
           <img src="assets/img/portfolio/chat.jpg" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>App 1</h4>
-            <p>App</p>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/chat.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
+            <h4>Legal Bot</h4>
           </div>
         </div>
       </div>
       <div class="col-lg-8 col-md-12 portfolio-item filter-app">
-        <div class="portfolio-wrap">
+        <div class="portfolio-wrap" data-toggle="modal" data-target="#travelModal">
           <img src="assets/img/portfolio/travel.jpg" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>App 1</h4>
-            <p>App</p>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/travel.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
+            <h4>Travel Management</h4>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
+<!-- The Modal -->
+<div class="modal fade" id="legalBotModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Legal Bot</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p class="short-description">Chat bot product from Westernacher, that can be used by other customers for their
+          customer support needs.
+          Targeted for legal and justice related offices in Germany primarily.</p>
+        <div class="col-lg-12 col-md-12">
+          <img src="assets/img/portfolio/chat.jpg" class="img-fluid" alt="">
+        </div>
+        <div>
+          <h5>Initial Research</h5>
+          <p>
+            We conducted interviews and discussions with stake holders about the real problem that our customers were
+            facing,
+            as an organisation Westernacher has products that serve the needs of judiciary,Notary and lawyers mostly in
+            Germany.
+            With a chat bot application we wished to provide a solution where Notaries and lawyers can have an automated
+            chat solution where they can deal with any questions from their clients and provide a solution either by an
+            automated reply which has trained models or by connecting to a support person who can provide a solution.
+
+          </p>
+        </div>
+        <div>
+          <h5>Ideation</h5>
+          <p>
+            After getting all the data from stake holders we planned for a data flow for our automated chat bot system
+            and data Structure in which we will store data in data base and Json structure that Backend would provide to
+            Front End
+          </p>
+          <img src="assets/img/portfolio/dataFlow.jpg" class="img-fluid" alt="">
+
+        </div>
+        <br>
+        <div>
+          <h5>My Role</h5>
+          <p>
+            In a team of four members, my role is primarily a Front-End developer, I convert designs and ,prototypes
+            that designers provide into application and also contributing in designing of screens that are responsive
+            and scalable.<br>
+            I have worked on technologies like JavaScript, HTML, CSS, Angular v9, GraphJs, Angular Material
+          </p>
+        </div>
+        <br>
+        <div>
+          <h5>Result</h5>
+          <p>
+            This application is in its final leg with a couple of successful presentations made to stakeholders and
+            higher management, we have provided this application as a library which requires minimum configuration.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
 
     </div>
-
   </div>
-</section><!-- End Portfolio Section -->
+</div>
+<div class="modal fade" id="travelModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Travel Management</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p class="short-description">Travel Management is an in house application developed for the Westernacher team to
+          record and track travel request applications</p>
+        <div class="col-lg-12 col-md-12">
+          <img src="assets/img/portfolio/travel.jpg" class="img-fluid" alt="">
+        </div>
+        <div>
+          <h5>Initial Research</h5>
+          <p>
+            We conducted interviews and discussions with stake holders about the problem and the expectations,
+            Westernacher having its presence globally and growing rapidly requires a lot of travel across the globe for
+            official works
+          </p>
+        </div>
+        <div>
+          <h5>Ideation</h5>
+          <p>
+            After getting all the requirements from stake holders we came up with a few simple screens that could enable
+            user to navigate trough screens
+          </p>
+          <img src="assets/img/portfolio/travelOld.JPG" class="img-fluid" alt="">
+          <p>
+            This design provided initial functionality but an edit to a form required user to travel back and forth
+            using next and previous button, The newer design provides a better approach when user knows his active tab
+            and is easy to traverse.
+          </p>
+
+        </div>
+        <br>
+        <div>
+          <h5>My Role</h5>
+          <p>
+            In a team of four members, my role is primarily a Front-End developer and Designer, I made pen and paper
+            prototype of the screens designing a few steppers and tab view to traverse application. I was also
+            responsible for converting these designs to reality on screens with a working functionality, integrating
+            with backend to perform CRUD operation.
+            <br>
+            I have worked on technologies like JavaScript, HTML, CSS, Angular v9, Bootstrap v4
+          </p>
+          <img src="assets/img/portfolio/proto.jpg" class="img-fluid" alt="">
+
+        </div>
+        <br>
+        <div>
+          <h5>Result</h5>
+          <p>
+            The application provides ability to the employees to raise a travel request and upload their relevant
+            documents, it also allows them to track the reques for approval and an email notification is send every time
+            status is updated
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
