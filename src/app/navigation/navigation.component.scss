@@ -30,19 +30,8 @@
     font-size: 20px;
 
   }
+  @media only screen and (min-width: 960px) {
 
-  .port-pill:hover {
-    width: 100%;
-    padding: 0 5px 0 7px;
-    background: #0563bb;
-    color: white;
-  }
-
-  .port-pill:hover span {
-    display: block;
-    padding: 0 5px 0 7px;
-    background: #0563bb;
-    color: white;
 
     .port-pill:hover {
       width: 100%;
@@ -56,9 +45,24 @@
       padding: 0 5px 0 7px;
       background: #0563bb;
       color: white;
+
+      .port-pill:hover {
+        width: 100%;
+        padding: 0 5px 0 7px;
+        background: #0563bb;
+        color: white;
+      }
+
+      .port-pill:hover span {
+        display: block;
+        padding: 0 5px 0 7px;
+        background: #0563bb;
+        color: white;
+      }
     }
   }
 }
+
 .nav-active {
   background-color: #0563bb !important;
   color: white !important;

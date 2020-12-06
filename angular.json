@@ -92,7 +92,7 @@
             ],
             "scripts": [],
             "assets": [
-              "src/favicon.ico",
+              "src/assets/img/sh.png",
               "src/assets",
               "src/CNAME"
             ]
