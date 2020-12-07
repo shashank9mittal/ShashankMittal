@@ -6,32 +6,33 @@
 //  z-index: -1;
 //
 //}
-.content {
-  /* this is needed or the background will be offset by a few pixels at the top */
-  overflow: hidden;
+//.content {
+//  /* this is needed or the background will be offset by a few pixels at the top */
+//  overflow: hidden;
+//}
+//
+//.content:before {
+//  content: "";
+//  position: absolute;
+//  left: 0;
+//  right: 0;
+//  z-index: -1;
+//
+//  display: block;
+//  background-image: url('../../assets/img/blur_background.jpg');
+//  background-size:cover;
+//  width: 100vw;
+//  height: 100vh;
+//
+//  -webkit-filter: blur(5px);
+//  -moz-filter: blur(5px);
+//  -o-filter: blur(5px);
+//  -ms-filter: blur(5px);
+//  filter: blur(5px);
+//}
+.content{
+  background-image: linear-gradient(to right, #ffffff, #f0f0fa, #dfe1f5, #cdd2f1, #b8c5ed, #b3beeb, #aeb6e9, #abaee6, #baa9e2, #c8a3da, #d59ed1, #e099c5);
 }
-
-.content:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-
-  display: block;
-  background-image: url('../../assets/img/blur_background.jpg');
-  background-size:cover;
-  width: 100vw;
-  height: 100vh;
-
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-
-
 
 
 
