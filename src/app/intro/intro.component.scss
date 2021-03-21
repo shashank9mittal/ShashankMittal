@@ -30,9 +30,13 @@
 //  -ms-filter: blur(5px);
 //  filter: blur(5px);
 //}
-.content{
-  background-image: linear-gradient(to right, #ffffff, #f0f0fa, #dfe1f5, #cdd2f1, #b8c5ed, #b3beeb, #aeb6e9, #abaee6, #baa9e2, #c8a3da, #d59ed1, #e099c5);
-}
+// .content{
+//   background: rgb(255,255,255);
+//   background: -moz-linear-gradient(73deg, rgba(255,255,255,1) 14%, rgba(251,253,255,1) 52%, rgba(143,186,244,1) 100%);
+//   background: -webkit-linear-gradient(73deg, rgba(255,255,255,1) 14%, rgba(251,253,255,1) 52%, rgba(143,186,244,1) 100%);
+//   background: linear-gradient(73deg, rgba(255,255,255,1) 14%, rgba(251,253,255,1) 52%, rgba(143,186,244,1) 100%);
+//   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#8fbaf4",GradientType=1);
+// }
 
 
 

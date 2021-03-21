@@ -83,8 +83,8 @@
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
+  border-top: 3px solid #0563bb ;
+  border-left: 3px solid #0563bb ;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -97,16 +97,16 @@
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
+  border-bottom: 3px solid #0563bb  ;
+  border-right: 3px solid #0563bb  ;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #45505b;
-  font-weight: 600;
+  font-size: 30px;
+  color: #0563bb;
+  font-weight: 800;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -139,7 +139,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0.2;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
