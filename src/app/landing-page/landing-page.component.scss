@@ -18,9 +18,8 @@
 // }
 .right-panel {
   background: rgb(255,255,255);
-  background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 26%, rgba(228,235,242,0.8524452017134979) 70%, rgba(150,209,255,0.7179914202008928) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 26%, rgba(228,235,242,0.8524452017134979) 70%, rgba(150,209,255,0.7179914202008928) 100%);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 26%, rgba(228,235,242,0.8524452017134979) 70%, rgba(150,209,255,0.7179914202008928) 100%);
+  background: -moz-linear-gradient(90deg, rgba(255,255,255,0.8972631288843662) 25%, rgba(242,241,228,0.8524452017134979) 70%, rgba(150,209,255,0.7179914202008928) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.8972631288843662) 25%, rgba(242,241,228,0.8524452017134979) 70%, rgba(150,209,255,0.7179914202008928) 100%);
+  background: linear-gradient(90deg, rgba(255,255,255,0.8972631288843662) 25%, rgba(242,241,228,0.8524452017134979) 70%, rgba(150,209,255,0.7179914202008928) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#96d1ff",GradientType=1);
-
 }
