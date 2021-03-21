@@ -12,17 +12,18 @@
     <div id="about">
       <app-about class="col-12"></app-about>
     </div>
-    <div id="resume">
-      <app-resume class="col-12"></app-resume>
-    </div>
     <div id="portfolio">
       <app-portfolio></app-portfolio>
     </div>
-    <div id="contact">
-      <app-contact></app-contact>
+    <div id="resume">
+      <app-resume class="col-12"></app-resume>
     </div>
+ 
+    <!-- <div id="contact">
+      <app-contact></app-contact>
+    </div> -->
 
   </div>
 </div>
-<div *ngIf="currentUrl === 'contact'" id="footer">
+<div *ngIf="currentUrl === 'resume'" id="footer">
 </div>

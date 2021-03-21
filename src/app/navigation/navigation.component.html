@@ -1,35 +1,38 @@
 <div class="portfolio-nav">
   <div class="port-bar">
     <div
-      [ngClass]="{'nav-active':activeUrl === 'intro'}"
-      (click)="navigation('intro')" class="port-pill">
+      [ngClass]="{ 'nav-active': activeUrl === 'intro' }"
+      (click)="navigation('intro')"
+      class="port-pill"
+    >
       <i class="material-icons">home</i>
       <span>Home</span>
     </div>
     <div
-      [ngClass]="{'nav-active':activeUrl === 'about'}"
-      (click)="navigation('about')" class="port-pill">
+      [ngClass]="{ 'nav-active': activeUrl === 'about' }"
+      (click)="navigation('about')"
+      class="port-pill"
+    >
       <i class="material-icons">perm_identity</i>
       <span>About</span>
     </div>
+
     <div
-      [ngClass]="{ 'nav-active': activeUrl === 'resume'}"
-      (click)="navigation('resume')" class="port-pill">
-      <i class="material-icons">list</i>
-      <span>Resume</span>
-    </div>
-    <div
-      [ngClass]="{'nav-active':activeUrl === 'portfolio'}"
-      (click)="navigation('portfolio')" class="port-pill">
+      [ngClass]="{ 'nav-active': activeUrl === 'portfolio' }"
+      (click)="navigation('portfolio')"
+      class="port-pill"
+    >
       <i class="material-icons">web</i>
       <span>Portfolio</span>
     </div>
     <div
-      [ngClass]="{'nav-active':activeUrl === 'contact'}"
-      (click)="navigation('contact')" class="port-pill">
-      <i class="material-icons">email</i>
-      <span>Contact</span>
-
+      [ngClass]="{ 'nav-active': activeUrl === 'resume' }"
+      (click)="navigation('resume')"
+      class="port-pill"
+    >
+      <i class="material-icons">list</i>
+      <span>Resume</span>
     </div>
+
   </div>
 </div>
